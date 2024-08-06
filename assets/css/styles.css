@@ -6,6 +6,10 @@
     --primary-color: #0F1B4C;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -65,13 +69,12 @@ a {
     display: flex;
     flex-direction: column;
     background: #E6F0FF;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    /* padding-top: 38px; */
     padding: 12px 0;
 }
 
